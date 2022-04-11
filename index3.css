@@ -1,0 +1,197 @@
+body{
+    /* width: 97vw;
+    height: 721px;
+    border: 10px solid;
+    border-left-color: green ;
+    border-right-color: orange;
+    border-color: white green white orange; */
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    width: 99vw;
+    height: 722px;
+    border: 10px solid;
+    border-left-color: green ;
+    border-right-color: orange;
+    border-color: white green white orange;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.sky{
+    width: 1800px;
+    height: 700px;
+    right: 800px;
+    
+}
+.road1{
+    /* width: 1490px;
+    height: 223px; */
+    position: absolute;
+    top: 520px;
+    left: -5000px;
+    
+    animation: road1 10s infinite linear reverse;
+}
+
+.road2{
+    /* width: 1490px;
+    height: 223px; */
+    position: absolute;
+    top: 520px;
+    left: 18px;
+    animation: road2 10s infinite linear reverse;
+}
+
+
+.city1{
+    /* position: absolute;
+    left: -5000px;
+    width: 1490px ;
+    animation: city1 10s infinite linear reverse; */
+    position: absolute;
+    top: 260px;
+    left: -100%;
+    width: 100%;
+    animation: city1 10s infinite linear reverse;
+}
+.city2{
+    /* position: absolute;
+    left: 18px;
+    width: 1490px ;
+    animation: city2 10s infinite linear reverse; */
+    position: absolute;
+    top: 260px;
+    left: 0px;
+    width: 100%;
+    animation: city2 10s infinite linear reverse;
+}
+.car{
+    width: 500px;
+    position: absolute;
+    top: 420px;
+    left: 505px;
+}
+
+.wheel1{
+    width: 90px;
+    position: absolute;
+    top: 530px;
+    left: 548px; 
+    animation: wheel 3s infinite linear;
+    
+}
+.wheel2{
+    width: 90px;
+    position: absolute;
+    top: 530px;
+    left: 855px;
+    animation: wheel 3s infinite linear; 
+}
+.sun{
+    width: 100px;
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    animation: sun 200s infinite linear;
+}
+.flag1{
+    width: 100px;
+    position: absolute;
+    top: 400px;
+    right: 550px;
+
+}
+@keyframes road1
+{
+    from
+    {
+        left: -5000px;
+    }
+    to
+    {
+        left: 18px;
+    }
+}
+@keyframes road2
+{
+    from
+    {
+        left: 18px;
+    }
+    to
+    {
+        left: 5000px;
+    }
+}
+@keyframes city1
+{
+    from
+    {
+        left: -100%;
+    }
+    to
+    {
+        left: 0px;
+    }
+}
+@keyframes city2
+{
+    from
+    {
+        left: 0px;
+    }
+    to
+    {
+        left: 100%;
+    }
+}
+@keyframes wheel
+{
+    from
+    {
+        transform: rotate(0deg);
+    }
+    to
+    {
+        transform: rotate(360deg);
+    }
+}
+@keyframes sun
+{
+    from
+    {
+        right: 100px;
+    }
+    to
+    {
+        right: 1000px;
+    }
+}
+.box1{
+    background-color: orange;
+    position: fixed;
+    left: 400px;
+    top: 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.box2{
+    background-color: white;
+    position: fixed;
+    left: 585px;
+    top: 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.box3{
+    background-color: green;
+    position: fixed;
+    left: 1000px;
+    top: 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
